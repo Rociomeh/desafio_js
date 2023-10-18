@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio JS</title>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="img-card"></div>
+                <h6>Laptop Gamer AMD</h6>
+            <p>"Precio base: $"
+            <span class="precio-inicial"></span>
+            </p>
+            <p>
+                "Cantidad: "
+                <span class="cantidad-total">0</span> <!--span llama al valor de la clase que define JS-->
+                <button onclick="sumar()">+</button> <!--evento onclick que llama la funcion sumar o restar y la función va siempre seguida de () -->
+                <button onclick="restar()">-</button>
+            </p>
+        </div>
+    </section>
+    <div class="total-section">
+        <p>
+            "Total a pagar: $"
+            <span class="precio-total"></span>
+        </p>
+    </div>
+    <!--buena práctica!-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
